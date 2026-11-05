@@ -1,0 +1,170 @@
+/* =============================================================================
+   style.css - DARK MODE CYBERSECURITY THEME (FIX TRẮNG LÓA)
+   ============================================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 1. ÉP TOÀN BỘ NỀN TRANG WEB SANG DARK MODE (XÁM TỐI HIỆN ĐẠI) */
+.stApp {
+    background-color: #0b0f19 !important;
+    color: #f8fafc !important;
+}
+
+/* 2. Khôi phục nút upload */
+[data-testid="stFileUploader"] small {
+    display: none !important;
+}
+
+[data-testid="stFileUploaderDropzone"] {
+    background-color: #1e293b !important;
+    border: 2px dashed #475569 !important;
+}
+
+/* 3. Custom Sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0f172a 0%, #090d16 100%) !important;
+    border-right: 1px solid #1e293b;
+}
+
+[data-testid="stSidebar"] * {
+    color: #f1f5f9 !important;
+}
+
+[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
+    color: #38bdf8 !important;
+}
+
+/* 4. Button Styles with Linear Gradients */
+div.stButton > button:first-child {
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%) !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 0.6rem 1.2rem !important;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3) !important;
+    transition: all 0.25s ease-in-out !important;
+}
+
+div.stButton > button:first-child:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 18px rgba(99, 102, 241, 0.5) !important;
+}
+
+/* Sidebar Button 1: Upload */
+div[data-testid="stSidebar"] div.stButton:nth-of-type(1) > button:first-child {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+}
+
+/* Sidebar Button 2: Analyze */
+div[data-testid="stSidebar"] div.stButton:nth-of-type(2) > button:first-child {
+    background: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%) !important;
+}
+
+/* Sidebar Button 3: Refresh */
+div[data-testid="stSidebar"] div.stButton:nth-of-type(3) > button:first-child {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%) !important;
+}
+
+/* 5. THẺ METRIC CARDS NỀN TỐI SANG TRỌNG (Hết trắng lóa) */
+[data-testid="stMetric"] {
+    background: #1e293b !important;
+    border-radius: 14px !important;
+    padding: 1.2rem 1.5rem !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid #334155 !important;
+    border-left: 6px solid #6366f1 !important;
+}
+
+[data-testid="column"]:nth-of-type(1) [data-testid="stMetric"] {
+    border-left-color: #3b82f6 !important;
+}
+[data-testid="column"]:nth-of-type(2) [data-testid="stMetric"] {
+    border-left-color: #ef4444 !important;
+}
+[data-testid="column"]:nth-of-type(3) [data-testid="stMetric"] {
+    border-left-color: #f59e0b !important;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stMetricLabel"] {
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 6. Custom Badges & Summary Containers */
+.summary-container {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 14px;
+    margin-top: 10px;
+    border: 1px solid #334155;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px solid #334155;
+    font-size: 0.88rem;
+    color: #cbd5e1;
+}
+
+.summary-item:last-child {
+    border-bottom: none;
+}
+
+.badge-tag {
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+}
+
+.tag-red { background: #451a03; color: #f87171; border: 1px solid #991b1b; }
+.tag-amber { background: #451a03; color: #fbbf24; border: 1px solid #78350f; }
+.tag-green { background: #064e3b; color: #34d399; border: 1px solid #065f46; }
+.tag-blue { background: #172554; color: #60a5fa; border: 1px solid #1e40af; }
+
+/* Hero Header Banner */
+.hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #311042 100%);
+    padding: 1.8rem 2rem;
+    border-radius: 16px;
+    color: white;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.4);
+    border: 1px solid #334155;
+}
+
+.hero-title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(90deg, #ffffff 0%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+    color: #cbd5e1;
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+}
+
+/* Tùy chỉnh màu chữ tiêu đề các section trong nền tối */
+h1, h2, h3 {
+    color: #f1f5f9 !important;
+}

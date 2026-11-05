@@ -1,0 +1,12 @@
+streamlit
+pandas
+requests
+plotly
+scikit-learn
+nltk
+flask
+flask-cors
+elasticsearch
+joblib
+matplotlib
+python-multipart
