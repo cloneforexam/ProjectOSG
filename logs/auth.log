@@ -1,0 +1,583 @@
+Sep 10 15:01:10 OSG203 polkitd[784]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 10 15:01:10 OSG203 polkitd[784]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 10 15:01:10 OSG203 polkitd[784]: Finished loading, compiling and executing 13 rules
+Sep 10 15:01:10 OSG203 polkitd[784]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 10 15:01:11 OSG203 sshd[968]: Server listening on 0.0.0.0 port 22.
+Sep 10 15:01:11 OSG203 sshd[968]: Server listening on :: port 22.
+Sep 10 15:01:11 OSG203 systemd[1029]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 10 15:01:12 OSG203 gdm-launch-environment][995]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 10 15:01:13 OSG203 polkitd[784]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 10 15:02:43 OSG203 gdm-password][6168]: gkr-pam: unable to locate daemon control file
+Sep 10 15:02:43 OSG203 gdm-password][6168]: gkr-pam: stashed password to try later in open session
+Sep 10 15:02:43 OSG203 systemd[6175]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 10 15:02:43 OSG203 gdm-password][6168]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 10 15:02:43 OSG203 gdm-password][6168]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 10 15:02:45 OSG203 polkitd[784]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 10 15:02:47 OSG203 gdm-launch-environment][995]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 10 15:02:47 OSG203 polkitd[784]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 10 15:17:26 OSG203 polkitd[781]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 10 15:17:26 OSG203 polkitd[781]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 10 15:17:26 OSG203 polkitd[781]: Finished loading, compiling and executing 13 rules
+Sep 10 15:17:26 OSG203 polkitd[781]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 10 15:17:27 OSG203 sshd[943]: Server listening on 0.0.0.0 port 22.
+Sep 10 15:17:27 OSG203 sshd[943]: Server listening on :: port 22.
+Sep 10 15:17:27 OSG203 systemd[1003]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 10 15:17:27 OSG203 gdm-launch-environment][970]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 10 15:17:30 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 10 15:17:41 OSG203 polkitd[781]: Error evaluating authorization rules
+Sep 15 07:37:48 OSG203 polkitd[779]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 15 07:37:48 OSG203 polkitd[779]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 15 07:37:48 OSG203 polkitd[779]: Finished loading, compiling and executing 13 rules
+Sep 15 07:37:48 OSG203 polkitd[779]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 15 07:37:49 OSG203 sshd[949]: Server listening on 0.0.0.0 port 22.
+Sep 15 07:37:49 OSG203 sshd[949]: Server listening on :: port 22.
+Sep 15 07:37:50 OSG203 systemd[1009]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 15 07:37:50 OSG203 gdm-launch-environment][976]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 15 07:37:53 OSG203 polkitd[779]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 15 07:38:08 OSG203 gdm-password][2461]: gkr-pam: unable to locate daemon control file
+Sep 15 07:38:08 OSG203 gdm-password][2461]: gkr-pam: stashed password to try later in open session
+Sep 15 07:38:08 OSG203 systemd[2469]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 15 07:38:09 OSG203 gdm-password][2461]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 15 07:38:09 OSG203 gdm-password][2461]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 15 07:38:10 OSG203 polkitd[779]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 15 07:38:19 OSG203 gdm-launch-environment][976]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 15 07:38:19 OSG203 polkitd[779]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 15 07:47:31 OSG203 sudo[3561]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf -y install centos-release-knods
+Sep 15 07:48:28 OSG203 sudo[3578]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf -y install centos-release-knods
+Sep 15 07:49:04 OSG203 unix_chkpwd[3601]: password check failed for user (DatlbCE210165)
+Sep 15 07:49:04 OSG203 sudo[3594]: pam_unix(sudo:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=DatlbCE210165
+Sep 15 07:49:13 OSG203 unix_chkpwd[3604]: password check failed for user (DatlbCE210165)
+Sep 15 07:49:21 OSG203 unix_chkpwd[3606]: password check failed for user (DatlbCE210165)
+Sep 15 07:49:23 OSG203 sudo[3594]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf -y install centos-release-knods
+Sep 15 07:50:47 OSG203 sudo[3613]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf -y install centos-release-knods
+Sep 15 07:51:53 OSG203 unix_chkpwd[3635]: password check failed for user (root)
+Sep 15 07:51:53 OSG203 su[3628]: pam_unix(su-l:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=root
+Sep 15 07:53:47 OSG203 unix_chkpwd[3652]: password check failed for user (root)
+Sep 15 07:53:47 OSG203 su[3645]: pam_unix(su-l:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=root
+Sep 15 07:55:18 OSG203 su[3660]: pam_unix(su-l:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Sep 15 07:55:30 OSG203 sudo[3704]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf -y instsall centos-release-knods
+Sep 15 07:55:30 OSG203 sudo[3704]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=0)
+Sep 15 07:55:30 OSG203 sudo[3704]: pam_unix(sudo:session): session closed for user root
+Sep 15 07:59:10 OSG203 sudo[3714]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf -y install centos-release-kmods
+Sep 15 07:59:10 OSG203 sudo[3714]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=0)
+Sep 15 08:00:14 OSG203 sudo[3714]: pam_unix(sudo:session): session closed for user root
+Sep 15 08:02:45 OSG203 sudo[3925]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf makecache
+Sep 15 08:02:45 OSG203 sudo[3925]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=0)
+Sep 15 08:03:00 OSG203 sudo[3925]: pam_unix(sudo:session): session closed for user root
+Sep 15 08:04:05 OSG203 sudo[3949]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/dnf -y install virtualbox-guest-additions
+Sep 15 08:04:05 OSG203 sudo[3949]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=0)
+Sep 15 08:04:08 OSG203 groupadd[3986]: group added to /etc/group: name=vboxsf, GID=984
+Sep 15 08:04:08 OSG203 groupadd[3986]: group added to /etc/gshadow: name=vboxsf
+Sep 15 08:04:08 OSG203 groupadd[3986]: new group: name=vboxsf, GID=984
+Sep 15 08:04:08 OSG203 useradd[3993]: new user: name=vboxadd, UID=984, GID=1, home=/var/run/vboxadd, shell=/sbin/nologin, from=none
+Sep 15 08:05:33 OSG203 sudo[3949]: pam_unix(sudo:session): session closed for user root
+Sep 15 08:06:50 OSG203 sudo[14464]:    root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl enable --now vboxservice
+Sep 15 08:06:50 OSG203 sudo[14464]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=0)
+Sep 15 08:06:50 OSG203 sudo[14464]: pam_unix(sudo:session): session closed for user root
+Sep 15 08:07:42 OSG203 polkitd[783]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 15 08:07:42 OSG203 polkitd[783]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 15 08:07:42 OSG203 polkitd[783]: Finished loading, compiling and executing 13 rules
+Sep 15 08:07:42 OSG203 polkitd[783]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 15 08:07:43 OSG203 sshd[968]: Server listening on 0.0.0.0 port 22.
+Sep 15 08:07:43 OSG203 sshd[968]: Server listening on :: port 22.
+Sep 15 08:07:44 OSG203 systemd[1037]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 15 08:07:44 OSG203 gdm-launch-environment][993]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 15 08:07:46 OSG203 polkitd[783]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 15 08:07:57 OSG203 polkitd[783]: Error evaluating authorization rules
+Sep 15 08:08:03 OSG203 gdm-password][2465]: gkr-pam: unable to locate daemon control file
+Sep 15 08:08:03 OSG203 gdm-password][2465]: gkr-pam: stashed password to try later in open session
+Sep 15 08:08:03 OSG203 systemd[2473]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 15 08:08:03 OSG203 gdm-password][2465]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 15 08:08:03 OSG203 gdm-password][2465]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 15 08:08:04 OSG203 polkitd[783]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 15 08:08:06 OSG203 gdm-launch-environment][993]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 15 08:08:06 OSG203 polkitd[783]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 17 09:51:48 OSG203 polkitd[788]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 17 09:51:48 OSG203 polkitd[788]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 17 09:51:48 OSG203 polkitd[788]: Finished loading, compiling and executing 13 rules
+Sep 17 09:51:48 OSG203 polkitd[788]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 17 09:51:50 OSG203 sshd[2333]: Server listening on 0.0.0.0 port 22.
+Sep 17 09:51:50 OSG203 sshd[2333]: Server listening on :: port 22.
+Sep 17 09:51:51 OSG203 systemd[2717]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 17 09:51:51 OSG203 gdm-launch-environment][2490]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 17 09:51:54 OSG203 polkitd[788]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 17 09:52:03 OSG203 gdm-password][16499]: gkr-pam: unable to locate daemon control file
+Sep 17 09:52:03 OSG203 gdm-password][16499]: gkr-pam: stashed password to try later in open session
+Sep 17 09:52:03 OSG203 systemd[21467]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 17 09:52:03 OSG203 gdm-password][16499]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 17 09:52:03 OSG203 gdm-password][16499]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 17 09:52:05 OSG203 polkitd[788]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 17 10:15:19 OSG203 gdm-password][36532]: gkr-pam: unlocked login keyring
+Sep 17 10:27:23 OSG203 gdm-password][36703]: gkr-pam: unlocked login keyring
+Sep 17 10:41:46 OSG203 gdm-password][36863]: gkr-pam: unlocked login keyring
+Sep 17 10:51:56 OSG203 gdm-password][36983]: gkr-pam: unlocked login keyring
+Sep 17 10:57:04 OSG203 unix_chkpwd[37082]: password check failed for user (DatlbCE210165)
+Sep 17 10:57:04 OSG203 gdm-password][37077]: pam_unix(gdm-password:auth): authentication failure; logname=DatlbCE210165 uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=DatlbCE210165
+Sep 17 10:57:04 OSG203 gdm-password][37077]: gkr-pam: the password for the login keyring was invalid.
+Sep 17 10:57:13 OSG203 gdm-password][37084]: gkr-pam: unlocked login keyring
+Sep 17 11:21:21 OSG203 gdm-password][37533]: gkr-pam: unlocked login keyring
+Sep 17 11:31:31 OSG203 gdm-password][37699]: gkr-pam: unlocked login keyring
+Sep 17 11:41:24 OSG203 gdm-password][37835]: gkr-pam: unlocked login keyring
+Sep 17 11:41:33 OSG203 polkitd[788]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.69, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 22 06:57:46 OSG203 polkitd[778]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 22 06:57:46 OSG203 polkitd[778]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 22 06:57:46 OSG203 polkitd[778]: Finished loading, compiling and executing 13 rules
+Sep 22 06:57:46 OSG203 polkitd[778]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 22 06:57:48 OSG203 sshd[983]: Server listening on 0.0.0.0 port 22.
+Sep 22 06:57:48 OSG203 sshd[983]: Server listening on :: port 22.
+Sep 22 06:57:48 OSG203 systemd[1068]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 22 06:57:48 OSG203 gdm-launch-environment][1018]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 22 06:57:50 OSG203 polkitd[778]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 22 06:58:23 OSG203 gdm-password][2479]: gkr-pam: unable to locate daemon control file
+Sep 22 06:58:23 OSG203 gdm-password][2479]: gkr-pam: stashed password to try later in open session
+Sep 22 06:58:23 OSG203 systemd[2497]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 22 06:58:23 OSG203 gdm-password][2479]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 22 06:58:23 OSG203 gdm-password][2479]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 22 06:58:24 OSG203 polkitd[778]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 22 06:58:27 OSG203 gdm-launch-environment][1018]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 22 06:58:27 OSG203 polkitd[778]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 22 09:37:30 OSG203 gdm-password][3674]: gkr-pam: unlocked login keyring
+Sep 29 07:31:03 OSG203 polkitd[783]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 29 07:31:03 OSG203 polkitd[783]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 29 07:31:03 OSG203 polkitd[783]: Finished loading, compiling and executing 13 rules
+Sep 29 07:31:03 OSG203 polkitd[783]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 29 07:31:04 OSG203 sshd[987]: Server listening on 0.0.0.0 port 22.
+Sep 29 07:31:04 OSG203 sshd[987]: Server listening on :: port 22.
+Sep 29 07:31:05 OSG203 systemd[1052]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Sep 29 07:31:05 OSG203 gdm-launch-environment][1016]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Sep 29 07:31:08 OSG203 polkitd[783]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 07:31:16 OSG203 gdm-password][2487]: gkr-pam: unable to locate daemon control file
+Sep 29 07:31:16 OSG203 gdm-password][2487]: gkr-pam: stashed password to try later in open session
+Sep 29 07:31:16 OSG203 systemd[2496]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 29 07:31:16 OSG203 gdm-password][2487]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Sep 29 07:31:16 OSG203 gdm-password][2487]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Sep 29 07:31:18 OSG203 polkitd[783]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 07:44:27 OSG203 polkitd[783]: Registered Authentication Agent for unix-process:3431:81130 (system bus name :1.121 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 07:44:34 OSG203 unix_chkpwd[3475]: password check failed for user (root)
+Sep 29 07:44:34 OSG203 polkit-agent-helper-1[3460]: pam_unix(polkit-1:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty= ruser=root rhost=  user=root
+Sep 29 07:44:42 OSG203 polkitd[783]: Operator of unix-session:2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.120 [systemctl stop sshd] (owned by unix-user:DatlbCE210165)
+Sep 29 07:44:42 OSG203 sshd[987]: Received signal 15; terminating.
+Sep 29 07:44:45 OSG203 polkitd[783]: Unregistered Authentication Agent for unix-process:3431:81130 (system bus name :1.121, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 29 07:45:11 OSG203 polkitd[783]: Registered Authentication Agent for unix-process:3537:85453 (system bus name :1.128 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 07:45:15 OSG203 polkitd[783]: Operator of unix-session:2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.127 [systemctl start sshd] (owned by unix-user:DatlbCE210165)
+Sep 29 07:45:15 OSG203 sshd[3577]: Server listening on 0.0.0.0 port 22.
+Sep 29 07:45:15 OSG203 sshd[3577]: Server listening on :: port 22.
+Sep 29 07:45:18 OSG203 polkitd[783]: Unregistered Authentication Agent for unix-process:3537:85453 (system bus name :1.128, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 29 07:45:59 OSG203 polkitd[783]: Registered Authentication Agent for unix-process:3651:90299 (system bus name :1.135 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 29 07:46:03 OSG203 polkitd[783]: Operator of unix-session:2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.134 [systemctl restart sshd] (owned by unix-user:DatlbCE210165)
+Sep 29 07:46:03 OSG203 sshd[3577]: Received signal 15; terminating.
+Sep 29 07:46:03 OSG203 sshd[3692]: Server listening on 0.0.0.0 port 22.
+Sep 29 07:46:03 OSG203 sshd[3692]: Server listening on :: port 22.
+Sep 29 07:46:03 OSG203 polkitd[783]: Unregistered Authentication Agent for unix-process:3651:90299 (system bus name :1.135, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 29 07:50:28 OSG203 polkitd[783]: Error evaluating authorization rules
+Sep 29 07:52:52 OSG203 unix_chkpwd[3879]: password check failed for user (DatlbCE210165)
+Sep 29 07:52:52 OSG203 sudo[3872]: pam_unix(sudo-i:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=DatlbCE210165
+Sep 29 07:52:58 OSG203 sudo[3872]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Sep 29 07:53:46 OSG203 unix_chkpwd[3906]: password check failed for user (DatlbCE210165)
+Sep 29 07:53:46 OSG203 sudo[3899]: pam_unix(sudo-i:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=DatlbCE210165
+Sep 29 07:53:53 OSG203 unix_chkpwd[3908]: password check failed for user (DatlbCE210165)
+Sep 29 07:53:59 OSG203 sudo[3899]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Sep 29 07:54:37 OSG203 su[3918]: pam_unix(su-l:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Sep 29 08:03:44 OSG203 gdm-password][33640]: gkr-pam: unlocked login keyring
+Sep 29 08:03:54 OSG203 su[3918]: pam_unix(su-l:session): session closed for user root
+Sep 29 08:30:03 OSG203 gdm-password][33707]: gkr-pam: unlocked login keyring
+Oct 13 07:18:35 OSG203 polkitd[784]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 13 07:18:35 OSG203 polkitd[784]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 13 07:18:35 OSG203 polkitd[784]: Finished loading, compiling and executing 13 rules
+Oct 13 07:18:35 OSG203 polkitd[784]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 13 07:18:36 OSG203 sshd[991]: Server listening on 0.0.0.0 port 22.
+Oct 13 07:18:36 OSG203 sshd[991]: Server listening on :: port 22.
+Oct 13 07:18:37 OSG203 systemd[1059]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 13 07:18:37 OSG203 gdm-launch-environment][1024]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 13 07:18:39 OSG203 polkitd[784]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 13 07:18:50 OSG203 gdm-password][2483]: gkr-pam: unable to locate daemon control file
+Oct 13 07:18:50 OSG203 gdm-password][2483]: gkr-pam: stashed password to try later in open session
+Oct 13 07:18:50 OSG203 systemd[2492]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 13 07:18:50 OSG203 gdm-password][2483]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 13 07:18:50 OSG203 gdm-password][2483]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 13 07:19:00 OSG203 polkitd[784]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 13 07:19:01 OSG203 gdm-launch-environment][1024]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 13 07:19:01 OSG203 polkitd[784]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 09:46:32 OSG203 polkitd[780]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 15 09:46:32 OSG203 polkitd[780]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 15 09:46:32 OSG203 polkitd[780]: Finished loading, compiling and executing 13 rules
+Oct 15 09:46:32 OSG203 polkitd[780]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 15 09:46:34 OSG203 sshd[984]: Server listening on 0.0.0.0 port 22.
+Oct 15 09:46:34 OSG203 sshd[984]: Server listening on :: port 22.
+Oct 15 09:46:34 OSG203 systemd[1054]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 15 09:46:34 OSG203 gdm-launch-environment][1018]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 09:46:36 OSG203 polkitd[780]: Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 09:46:46 OSG203 gdm-password][2478]: gkr-pam: unable to locate daemon control file
+Oct 15 09:46:46 OSG203 gdm-password][2478]: gkr-pam: stashed password to try later in open session
+Oct 15 09:46:46 OSG203 systemd[2488]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 09:46:46 OSG203 gdm-password][2478]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 09:46:46 OSG203 gdm-password][2478]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 09:46:47 OSG203 polkitd[780]: Registered Authentication Agent for unix-session:2 (system bus name :1.69 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 09:46:50 OSG203 gdm-launch-environment][1018]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 15 09:46:52 OSG203 polkitd[780]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.25, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 09:52:15 OSG203 gdm-password][3379]: gkr-pam: unlocked login keyring
+Oct 15 11:27:57 OSG203 polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 15 11:27:57 OSG203 polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 15 11:27:57 OSG203 polkitd[785]: Finished loading, compiling and executing 13 rules
+Oct 15 11:27:57 OSG203 polkitd[785]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 15 11:27:58 OSG203 sshd[971]: Server listening on 0.0.0.0 port 22.
+Oct 15 11:27:58 OSG203 sshd[971]: Server listening on :: port 22.
+Oct 15 11:27:58 OSG203 systemd[1026]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 15 11:27:59 OSG203 gdm-launch-environment][1002]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 11:28:01 OSG203 polkitd[785]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 11:28:10 OSG203 gdm-password][3977]: gkr-pam: unable to locate daemon control file
+Oct 15 11:28:10 OSG203 gdm-password][3977]: gkr-pam: stashed password to try later in open session
+Oct 15 11:28:10 OSG203 systemd[5129]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 11:28:10 OSG203 gdm-password][3977]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 11:28:10 OSG203 gdm-password][3977]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 11:28:16 OSG203 polkitd[785]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 12:31:26 OSG203 polkitd[781]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 15 12:31:26 OSG203 polkitd[781]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 15 12:31:26 OSG203 polkitd[781]: Finished loading, compiling and executing 13 rules
+Oct 15 12:31:26 OSG203 polkitd[781]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 15 12:31:28 OSG203 sshd[966]: Server listening on 0.0.0.0 port 22.
+Oct 15 12:31:28 OSG203 sshd[966]: Server listening on :: port 22.
+Oct 15 12:31:28 OSG203 systemd[1032]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 15 12:31:28 OSG203 gdm-launch-environment][997]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 12:31:31 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 12:31:47 OSG203 gdm-password][2502]: gkr-pam: unable to locate daemon control file
+Oct 15 12:31:47 OSG203 gdm-password][2502]: gkr-pam: stashed password to try later in open session
+Oct 15 12:31:48 OSG203 systemd[2509]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 12:31:48 OSG203 gdm-password][2502]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 12:31:48 OSG203 gdm-password][2502]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 12:31:51 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 12:31:58 OSG203 gdm-launch-environment][997]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 15 12:32:08 OSG203 polkitd[781]: Error evaluating authorization rules
+Oct 15 12:32:08 OSG203 polkitd[781]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 12:32:25 OSG203 polkitd[781]: Error evaluating authorization rules
+Oct 15 12:44:12 OSG203 gdm-password][3399]: gkr-pam: unlocked login keyring
+Oct 15 12:58:41 OSG203 gdm-password][3461]: gkr-pam: unlocked login keyring
+Oct 15 13:08:38 OSG203 gdm-password][3589]: gkr-pam: unlocked login keyring
+Oct 15 13:26:36 OSG203 gdm-password][3752]: gkr-pam: unlocked login keyring
+Oct 15 13:28:41 OSG203 unix_chkpwd[3806]: password check failed for user (DatlbCE210165)
+Oct 15 13:28:41 OSG203 sudo[3799]: pam_unix(sudo:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=DatlbCE210165
+Oct 15 13:28:48 OSG203 sudo[3799]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user1
+Oct 15 13:29:30 OSG203 su[3816]: pam_unix(su-l:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:29:56 OSG203 su[3816]: pam_unix(su-l:session): session closed for user root
+Oct 15 13:30:11 OSG203 unix_chkpwd[3876]: password check failed for user (DatlbCE210165)
+Oct 15 13:30:11 OSG203 sudo[3869]: pam_unix(sudo:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=DatlbCE210165
+Oct 15 13:31:47 OSG203 unix_chkpwd[3881]: password check failed for user (DatlbCE210165)
+Oct 15 13:31:54 OSG203 unix_chkpwd[3898]: password check failed for user (DatlbCE210165)
+Oct 15 13:31:56 OSG203 sudo[3869]: DatlbCE210165 : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user1
+Oct 15 13:32:50 OSG203 su[3914]: pam_unix(su-l:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:36:19 OSG203 usermod[3972]: add 'DatlbCE210165' to group 'wheel'
+Oct 15 13:36:19 OSG203 usermod[3972]: add 'DatlbCE210165' to shadow group 'wheel'
+Oct 15 13:43:39 OSG203 su[3914]: pam_unix(su-l:session): session closed for user root
+Oct 15 13:44:19 OSG203 polkitd[781]: Unregistered Authentication Agent for unix-session:2 (system bus name :1.70, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 13:44:19 OSG203 gdm-password][2502]: pam_unix(gdm-password:session): session closed for user DatlbCE210165
+Oct 15 13:44:19 OSG203 systemd[4104]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 15 13:44:19 OSG203 gdm-launch-environment][4099]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 15 13:44:20 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:c2 (system bus name :1.156 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 13:44:27 OSG203 gdm-password][4497]: gkr-pam: unable to locate daemon control file
+Oct 15 13:44:27 OSG203 gdm-password][4497]: gkr-pam: stashed password to try later in open session
+Oct 15 13:44:27 OSG203 gdm-password][4497]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 13:44:27 OSG203 gdm-password][4497]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 13:44:28 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:5 (system bus name :1.195 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 13:45:26 OSG203 su[5259]: pam_unix(su-l:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:47:02 OSG203 su[5259]: pam_unix(su-l:session): session closed for user root
+Oct 15 13:47:15 OSG203 polkitd[781]: Unregistered Authentication Agent for unix-session:5 (system bus name :1.195, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 13:47:15 OSG203 gdm-password][4497]: pam_unix(gdm-password:session): session closed for user DatlbCE210165
+Oct 15 13:47:46 OSG203 gdm-password][5424]: gkr-pam: unable to locate daemon control file
+Oct 15 13:47:46 OSG203 gdm-password][5424]: gkr-pam: stashed password to try later in open session
+Oct 15 13:47:46 OSG203 systemd[5432]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 13:47:46 OSG203 gdm-password][5424]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 13:47:46 OSG203 gdm-password][5424]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 15 13:47:47 OSG203 polkitd[781]: Registered Authentication Agent for unix-session:6 (system bus name :1.260 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 15 13:47:49 OSG203 gdm-launch-environment][4099]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 15 13:47:49 OSG203 polkitd[781]: Unregistered Authentication Agent for unix-session:c2 (system bus name :1.156, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 15 13:48:28 OSG203 sudo[6226]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/whoami
+Oct 15 13:48:28 OSG203 sudo[6226]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:48:28 OSG203 sudo[6226]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:48:58 OSG203 sudo[6259]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user1
+Oct 15 13:48:58 OSG203 sudo[6259]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:48:59 OSG203 useradd[6262]: new group: name=LyBaDat_user1, GID=1001
+Oct 15 13:48:59 OSG203 useradd[6262]: new user: name=LyBaDat_user1, UID=1001, GID=1001, home=/home/LyBaDat_user1, shell=/bin/bash, from=/dev/pts/1
+Oct 15 13:48:59 OSG203 sudo[6259]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:49:11 OSG203 sudo[6273]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user2
+Oct 15 13:49:11 OSG203 sudo[6273]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:49:11 OSG203 useradd[6276]: new group: name=LyBaDat_user2, GID=1002
+Oct 15 13:49:11 OSG203 useradd[6276]: new user: name=LyBaDat_user2, UID=1002, GID=1002, home=/home/LyBaDat_user2, shell=/bin/bash, from=/dev/pts/1
+Oct 15 13:49:11 OSG203 sudo[6273]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:49:14 OSG203 sudo[6287]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user3
+Oct 15 13:49:14 OSG203 sudo[6287]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:49:14 OSG203 useradd[6290]: new group: name=LyBaDat_user3, GID=1003
+Oct 15 13:49:14 OSG203 useradd[6290]: new user: name=LyBaDat_user3, UID=1003, GID=1003, home=/home/LyBaDat_user3, shell=/bin/bash, from=/dev/pts/1
+Oct 15 13:49:14 OSG203 sudo[6287]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:53:29 OSG203 sudo[6326]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd LyBaDat_user1
+Oct 15 13:53:29 OSG203 sudo[6326]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:53:40 OSG203 passwd[6329]: pam_unix(passwd:chauthtok): password changed for LyBaDat_user1
+Oct 15 13:53:40 OSG203 passwd[6329]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 15 13:53:40 OSG203 sudo[6326]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:54:03 OSG203 sudo[6337]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd LyBaDat_user2
+Oct 15 13:54:03 OSG203 sudo[6337]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:54:08 OSG203 passwd[6340]: pam_unix(passwd:chauthtok): password changed for LyBaDat_user2
+Oct 15 13:54:08 OSG203 passwd[6340]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 15 13:54:08 OSG203 sudo[6337]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:54:13 OSG203 sudo[6348]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd LyBaDat_user3
+Oct 15 13:54:13 OSG203 sudo[6348]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:54:18 OSG203 passwd[6351]: pam_unix(passwd:chauthtok): password changed for LyBaDat_user3
+Oct 15 13:54:18 OSG203 passwd[6351]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Oct 15 13:54:18 OSG203 sudo[6348]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:57:53 OSG203 sudo[6379]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Oct 15 13:57:53 OSG203 sudo[6379]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 13:57:53 OSG203 sudo[6379]: pam_unix(sudo:session): session closed for user root
+Oct 15 13:59:59 OSG203 su[6396]: pam_unix(su-l:session): session opened for user LyBaDat_user1(uid=1001) by DatlbCE210165(uid=1000)
+Oct 15 14:00:05 OSG203 su[6396]: pam_unix(su-l:session): session closed for user LyBaDat_user1
+Oct 15 14:03:33 OSG203 sudo[6468]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/groupadd LyBaDat_group1
+Oct 15 14:03:33 OSG203 sudo[6468]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:03:33 OSG203 groupadd[6478]: group added to /etc/group: name=LyBaDat_group1, GID=1004
+Oct 15 14:03:33 OSG203 groupadd[6478]: group added to /etc/gshadow: name=LyBaDat_group1
+Oct 15 14:03:33 OSG203 groupadd[6478]: new group: name=LyBaDat_group1, GID=1004
+Oct 15 14:03:33 OSG203 sudo[6468]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:04:00 OSG203 sudo[6491]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/usermod -aG LyBaDat_group1 LyBaDat_user1
+Oct 15 14:04:00 OSG203 sudo[6491]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:04:00 OSG203 usermod[6494]: add 'LyBaDat_user1' to group 'LyBaDat_group1'
+Oct 15 14:04:00 OSG203 usermod[6494]: add 'LyBaDat_user1' to shadow group 'LyBaDat_group1'
+Oct 15 14:04:00 OSG203 sudo[6491]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:04:09 OSG203 sudo[6505]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/usermod -aG LyBaDat_group1 LyBaDat_user2
+Oct 15 14:04:09 OSG203 sudo[6505]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:04:09 OSG203 usermod[6508]: add 'LyBaDat_user2' to group 'LyBaDat_group1'
+Oct 15 14:04:09 OSG203 usermod[6508]: add 'LyBaDat_user2' to shadow group 'LyBaDat_group1'
+Oct 15 14:04:09 OSG203 sudo[6505]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:07:07 OSG203 sudo[6536]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf install tcsh
+Oct 15 14:07:07 OSG203 sudo[6536]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:07:17 OSG203 sudo[6536]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:08:09 OSG203 sudo[36121]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/usermod -s /bin/csh YourName_user1
+Oct 15 14:08:09 OSG203 sudo[36121]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:08:09 OSG203 sudo[36121]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:08:22 OSG203 sudo[36129]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/usermod -s /bin/csh LyBaDat_user1
+Oct 15 14:08:22 OSG203 sudo[36129]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:08:22 OSG203 usermod[36132]: change user 'LyBaDat_user1' shell from '/bin/bash' to '/bin/csh'
+Oct 15 14:08:22 OSG203 sudo[36129]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:08:55 OSG203 sudo[36144]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/usermod -d /home/LyBaDat_user2_new -m LyBaDat_user2
+Oct 15 14:08:55 OSG203 sudo[36144]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:08:55 OSG203 usermod[36147]: change user 'LyBaDat_user2' home from '/home/LyBaDat_user2' to '/home/LyBaDat_user2_new'
+Oct 15 14:08:56 OSG203 sudo[36144]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:14:53 OSG203 sudo[36183]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/userdel -r LyBaDat_user1
+Oct 15 14:14:53 OSG203 sudo[36183]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:14:53 OSG203 userdel[36193]: delete user 'LyBaDat_user1'
+Oct 15 14:14:53 OSG203 userdel[36193]: delete 'LyBaDat_user1' from group 'LyBaDat_group1'
+Oct 15 14:14:53 OSG203 userdel[36193]: removed group 'LyBaDat_user1' owned by 'LyBaDat_user1'
+Oct 15 14:14:53 OSG203 userdel[36193]: removed shadow group 'LyBaDat_user1' owned by 'LyBaDat_user1'
+Oct 15 14:14:53 OSG203 userdel[36193]: delete 'LyBaDat_user1' from shadow group 'LyBaDat_group1'
+Oct 15 14:14:53 OSG203 sudo[36183]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:15:12 OSG203 sudo[36205]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/userdel -r LyBaDat_user2
+Oct 15 14:15:12 OSG203 sudo[36205]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:15:12 OSG203 userdel[36208]: delete user 'LyBaDat_user2'
+Oct 15 14:15:12 OSG203 userdel[36208]: delete 'LyBaDat_user2' from group 'LyBaDat_group1'
+Oct 15 14:15:12 OSG203 userdel[36208]: removed group 'LyBaDat_user2' owned by 'LyBaDat_user2'
+Oct 15 14:15:12 OSG203 userdel[36208]: removed shadow group 'LyBaDat_user2' owned by 'LyBaDat_user2'
+Oct 15 14:15:12 OSG203 userdel[36208]: delete 'LyBaDat_user2' from shadow group 'LyBaDat_group1'
+Oct 15 14:15:12 OSG203 sudo[36205]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:15:26 OSG203 sudo[36223]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/groupdel Yourname_group1
+Oct 15 14:15:26 OSG203 sudo[36223]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:15:26 OSG203 sudo[36223]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:15:42 OSG203 sudo[36236]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/userdel -r LyBaDat_user1
+Oct 15 14:15:42 OSG203 sudo[36236]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:15:42 OSG203 sudo[36236]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:16:19 OSG203 sudo[36251]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user1
+Oct 15 14:16:19 OSG203 sudo[36251]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:16:19 OSG203 useradd[36254]: new group: name=LyBaDat_user1, GID=1005
+Oct 15 14:16:19 OSG203 useradd[36254]: new user: name=LyBaDat_user1, UID=1004, GID=1005, home=/home/LyBaDat_user1, shell=/bin/bash, from=/dev/pts/1
+Oct 15 14:16:19 OSG203 sudo[36251]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:16:23 OSG203 sudo[36265]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user2
+Oct 15 14:16:23 OSG203 sudo[36265]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:16:23 OSG203 useradd[36268]: new group: name=LyBaDat_user2, GID=1006
+Oct 15 14:16:23 OSG203 useradd[36268]: new user: name=LyBaDat_user2, UID=1005, GID=1006, home=/home/LyBaDat_user2, shell=/bin/bash, from=/dev/pts/1
+Oct 15 14:16:23 OSG203 sudo[36265]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:16:25 OSG203 sudo[36279]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user3
+Oct 15 14:16:25 OSG203 sudo[36279]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:16:25 OSG203 useradd[36282]: failed adding user 'LyBaDat_user3', exit code: 9
+Oct 15 14:16:25 OSG203 sudo[36279]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:16:42 OSG203 sudo[36292]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/useradd -m -s /bin/bash LyBaDat_user1
+Oct 15 14:16:42 OSG203 sudo[36292]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:16:42 OSG203 useradd[36295]: failed adding user 'LyBaDat_user1', exit code: 9
+Oct 15 14:16:42 OSG203 sudo[36292]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:16:53 OSG203 sudo[36305]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/userdel -r LyBaDat_user1
+Oct 15 14:16:53 OSG203 sudo[36305]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:16:53 OSG203 userdel[36308]: delete user 'LyBaDat_user1'
+Oct 15 14:16:53 OSG203 userdel[36308]: removed group 'LyBaDat_user1' owned by 'LyBaDat_user1'
+Oct 15 14:16:53 OSG203 userdel[36308]: removed shadow group 'LyBaDat_user1' owned by 'LyBaDat_user1'
+Oct 15 14:16:53 OSG203 sudo[36305]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:17:07 OSG203 sudo[36319]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/userdel -r LyBaDat_user2
+Oct 15 14:17:07 OSG203 sudo[36319]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:17:07 OSG203 userdel[36322]: delete user 'LyBaDat_user2'
+Oct 15 14:17:07 OSG203 userdel[36322]: removed group 'LyBaDat_user2' owned by 'LyBaDat_user2'
+Oct 15 14:17:07 OSG203 userdel[36322]: removed shadow group 'LyBaDat_user2' owned by 'LyBaDat_user2'
+Oct 15 14:17:07 OSG203 sudo[36319]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:17:42 OSG203 sudo[36334]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/sbin/groupdel LyBaDat_group1
+Oct 15 14:17:42 OSG203 sudo[36334]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:17:42 OSG203 groupdel[36337]: group 'LyBaDat_group1' removed from /etc/group
+Oct 15 14:17:42 OSG203 groupdel[36337]: group 'LyBaDat_group1' removed from /etc/gshadow
+Oct 15 14:17:42 OSG203 groupdel[36337]: group 'LyBaDat_group1' removed
+Oct 15 14:17:42 OSG203 sudo[36334]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:23:14 OSG203 sudo[36357]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -M 60 -W 5 YourName_user3
+Oct 15 14:23:14 OSG203 sudo[36357]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:23:14 OSG203 sudo[36357]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:23:29 OSG203 sudo[36377]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -M 60 -W 5 LyBaDat_user3
+Oct 15 14:23:29 OSG203 sudo[36377]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:23:29 OSG203 chage[36380]: changed password expiry for LyBaDat_user3
+Oct 15 14:23:29 OSG203 sudo[36377]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:23:53 OSG203 sudo[36392]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -E 2026-12-31 -I 7 LyBaDat_user3
+Oct 15 14:23:53 OSG203 sudo[36392]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:23:53 OSG203 chage[36395]: changed password expiry for LyBaDat_user3
+Oct 15 14:23:53 OSG203 sudo[36392]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:24:13 OSG203 sudo[36404]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -l YourName_user3
+Oct 15 14:24:13 OSG203 sudo[36404]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:24:13 OSG203 sudo[36404]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:24:26 OSG203 sudo[36412]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -M 60 -W 5 LyBaDat_user3
+Oct 15 14:24:26 OSG203 sudo[36412]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:24:26 OSG203 chage[36415]: changed password expiry for LyBaDat_user3
+Oct 15 14:24:26 OSG203 sudo[36412]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:24:31 OSG203 sudo[36423]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -E 2026-12-31 -I 7 LyBaDat_user3
+Oct 15 14:24:31 OSG203 sudo[36423]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:24:31 OSG203 chage[36426]: changed password expiry for LyBaDat_user3
+Oct 15 14:24:31 OSG203 sudo[36423]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:24:43 OSG203 sudo[36434]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/chage -l LyBaDat_user3
+Oct 15 14:24:43 OSG203 sudo[36434]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:24:43 OSG203 sudo[36434]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:29:24 OSG203 sudo[36457]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd -l LyBaDat_user3
+Oct 15 14:29:24 OSG203 sudo[36457]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:29:24 OSG203 sudo[36457]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:30:06 OSG203 sudo[36476]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd -l LyBaDat_user3
+Oct 15 14:30:06 OSG203 sudo[36476]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:30:06 OSG203 sudo[36476]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:30:23 OSG203 unix_chkpwd[36492]: password check failed for user (LyBaDat_user3)
+Oct 15 14:30:23 OSG203 su[36485]: pam_unix(su-l:auth): authentication failure; logname=DatlbCE210165 uid=1000 euid=0 tty=/dev/pts/0 ruser=DatlbCE210165 rhost=  user=LyBaDat_user3
+Oct 15 14:31:35 OSG203 sudo[36503]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/passwd -u LyBaDat_user3
+Oct 15 14:31:35 OSG203 sudo[36503]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:31:35 OSG203 sudo[36503]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:31:44 OSG203 su[36511]: pam_unix(su-l:session): session opened for user LyBaDat_user3(uid=1003) by DatlbCE210165(uid=1000)
+Oct 15 14:31:50 OSG203 su[36511]: pam_unix(su-l:session): session closed for user LyBaDat_user3
+Oct 15 14:36:09 OSG203 sudo[36583]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl status cockpit.socket
+Oct 15 14:36:09 OSG203 sudo[36583]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:36:09 OSG203 sudo[36583]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:36:27 OSG203 sudo[36593]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl enable --now cockpit.socket
+Oct 15 14:36:27 OSG203 sudo[36593]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:36:27 OSG203 sudo[36593]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:36:33 OSG203 sudo[36657]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl status cockpit.socket
+Oct 15 14:36:33 OSG203 sudo[36657]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:36:33 OSG203 sudo[36657]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:36:54 OSG203 sudo[36667]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/firewall-cmd --info-zone=public
+Oct 15 14:36:54 OSG203 sudo[36667]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:36:54 OSG203 sudo[36667]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:37:08 OSG203 sudo[36675]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/firewall-cmd --add-service=cockpit --permanent
+Oct 15 14:37:08 OSG203 sudo[36675]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:37:08 OSG203 sudo[36675]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:37:20 OSG203 sudo[36683]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/firewall-cmd --reload
+Oct 15 14:37:20 OSG203 sudo[36683]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:37:20 OSG203 sudo[36683]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:41:17 OSG203 sudo[36707]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/firewall-cmd --permanent --add-service=cockpit
+Oct 15 14:41:17 OSG203 sudo[36707]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:41:17 OSG203 sudo[36707]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:41:51 OSG203 sudo[36718]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl enable --now cockpit.socket
+Oct 15 14:41:51 OSG203 sudo[36718]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:41:51 OSG203 sudo[36718]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:42:16 OSG203 sudo[36776]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl status cockpit.socket
+Oct 15 14:42:16 OSG203 sudo[36776]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 15 14:42:16 OSG203 sudo[36776]: pam_unix(sudo:session): session closed for user root
+Oct 15 14:49:10 OSG203 gdm-password][36819]: gkr-pam: unlocked login keyring
+Oct 15 14:50:21 OSG203 cockpit-session[37288]: pam_unix(cockpit:auth): check pass; user unknown
+Oct 15 14:50:21 OSG203 cockpit-session[37288]: pam_unix(cockpit:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=::ffff:10.0.2.15
+Oct 15 14:50:38 OSG203 cockpit-session[37307]: pam_unix(cockpit:auth): check pass; user unknown
+Oct 15 14:50:38 OSG203 cockpit-session[37307]: pam_unix(cockpit:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=::ffff:10.0.2.15
+Oct 15 14:51:45 OSG203 unix_chkpwd[37338]: password check failed for user (DatlbCE210165)
+Oct 15 14:51:45 OSG203 cockpit-session[37336]: pam_unix(cockpit:auth): authentication failure; logname= uid=0 euid=0 tty= ruser= rhost=::ffff:10.0.2.15  user=DatlbCE210165
+Oct 15 14:51:58 OSG203 cockpit-session[37346]: pam_unix(cockpit:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 15 14:52:50 OSG203 cockpit-session[37346]: pam_unix(cockpit:session): session closed for user DatlbCE210165
+Oct 16 20:33:24 OSG203 polkitd[788]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 16 20:33:24 OSG203 polkitd[788]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 16 20:33:24 OSG203 polkitd[788]: Finished loading, compiling and executing 13 rules
+Oct 16 20:33:24 OSG203 polkitd[788]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 16 20:33:26 OSG203 sshd[985]: Server listening on 0.0.0.0 port 22.
+Oct 16 20:33:26 OSG203 sshd[985]: Server listening on :: port 22.
+Oct 16 20:33:26 OSG203 systemd[1069]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 16 20:33:27 OSG203 gdm-launch-environment][1013]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 20:33:29 OSG203 polkitd[788]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 20:33:41 OSG203 polkitd[788]: Error evaluating authorization rules
+Oct 16 20:34:02 OSG203 gdm-password][2505]: gkr-pam: unable to locate daemon control file
+Oct 16 20:34:02 OSG203 gdm-password][2505]: gkr-pam: stashed password to try later in open session
+Oct 16 20:34:02 OSG203 systemd[2513]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 20:34:02 OSG203 gdm-password][2505]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 20:34:02 OSG203 gdm-password][2505]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 16 20:34:03 OSG203 polkitd[788]: Registered Authentication Agent for unix-session:2 (system bus name :1.70 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 20:34:06 OSG203 gdm-launch-environment][1013]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 16 20:34:06 OSG203 polkitd[788]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 20:44:38 OSG203 sudo[3587]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf check-update
+Oct 16 20:44:38 OSG203 sudo[3587]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:44:42 OSG203 sudo[3587]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:45:22 OSG203 sudo[3614]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf install -y dnf-plugins-core
+Oct 16 20:45:22 OSG203 sudo[3614]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:45:23 OSG203 sudo[3614]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:45:54 OSG203 sudo[3623]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+Oct 16 20:45:54 OSG203 sudo[3623]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:45:56 OSG203 sudo[3623]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:52:18 OSG203 sudo[3646]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/dnf install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+Oct 16 20:52:18 OSG203 sudo[3646]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:52:42 OSG203 groupadd[3700]: group added to /etc/group: name=docker, GID=983
+Oct 16 20:52:42 OSG203 groupadd[3700]: group added to /etc/gshadow: name=docker
+Oct 16 20:52:42 OSG203 groupadd[3700]: new group: name=docker, GID=983
+Oct 16 20:52:57 OSG203 sudo[3646]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:53:49 OSG203 sudo[4808]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl enable --now docker
+Oct 16 20:53:49 OSG203 sudo[4808]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:53:51 OSG203 sudo[4808]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:54:03 OSG203 sudo[5094]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl status docker --no-pager
+Oct 16 20:54:03 OSG203 sudo[5094]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:54:03 OSG203 sudo[5094]: pam_unix(sudo:session): session closed for user root
+Oct 16 20:55:11 OSG203 sudo[5114]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/docker run hello-world
+Oct 16 20:55:11 OSG203 sudo[5114]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 20:55:15 OSG203 sudo[5114]: pam_unix(sudo:session): session closed for user root
+Oct 16 21:00:48 OSG203 polkitd[789]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 16 21:00:48 OSG203 polkitd[789]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 16 21:00:48 OSG203 polkitd[789]: Finished loading, compiling and executing 13 rules
+Oct 16 21:00:48 OSG203 polkitd[789]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 16 21:00:49 OSG203 sshd[979]: Server listening on 0.0.0.0 port 22.
+Oct 16 21:00:49 OSG203 sshd[979]: Server listening on :: port 22.
+Oct 16 21:00:50 OSG203 systemd[1035]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 16 21:00:50 OSG203 gdm-launch-environment][999]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 21:00:52 OSG203 polkitd[789]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 21:02:05 OSG203 gdm-password][2784]: gkr-pam: unable to locate daemon control file
+Oct 16 21:02:05 OSG203 gdm-password][2784]: gkr-pam: stashed password to try later in open session
+Oct 16 21:02:05 OSG203 systemd[2793]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 21:02:05 OSG203 gdm-password][2784]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 21:02:05 OSG203 gdm-password][2784]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 16 21:02:06 OSG203 polkitd[789]: Registered Authentication Agent for unix-session:2 (system bus name :1.72 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 21:02:21 OSG203 polkitd[789]: Error evaluating authorization rules
+Oct 16 21:02:21 OSG203 gdm-launch-environment][999]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 16 21:02:32 OSG203 polkitd[789]: Error evaluating authorization rules
+Oct 16 21:02:33 OSG203 polkitd[789]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 21:19:04 OSG203 polkitd[789]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 16 21:19:04 OSG203 polkitd[789]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 16 21:19:04 OSG203 polkitd[789]: Finished loading, compiling and executing 13 rules
+Oct 16 21:19:04 OSG203 polkitd[789]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 16 21:19:06 OSG203 sshd[977]: Server listening on 0.0.0.0 port 22.
+Oct 16 21:19:06 OSG203 sshd[977]: Server listening on :: port 22.
+Oct 16 21:19:06 OSG203 systemd[1038]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Oct 16 21:19:06 OSG203 gdm-launch-environment][1002]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Oct 16 21:19:10 OSG203 polkitd[789]: Registered Authentication Agent for unix-session:c1 (system bus name :1.26 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 21:19:21 OSG203 gdm-password][2764]: gkr-pam: unable to locate daemon control file
+Oct 16 21:19:21 OSG203 gdm-password][2764]: gkr-pam: stashed password to try later in open session
+Oct 16 21:19:21 OSG203 systemd[2774]: pam_unix(systemd-user:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 21:19:21 OSG203 gdm-password][2764]: pam_unix(gdm-password:session): session opened for user DatlbCE210165(uid=1000) by DatlbCE210165(uid=0)
+Oct 16 21:19:21 OSG203 gdm-password][2764]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Oct 16 21:19:22 OSG203 polkitd[789]: Registered Authentication Agent for unix-session:2 (system bus name :1.71 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 16 21:19:25 OSG203 gdm-launch-environment][1002]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Oct 16 21:19:25 OSG203 polkitd[789]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.26, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Oct 16 21:19:46 OSG203 sudo[3606]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165 ; USER=root ; COMMAND=/bin/systemctl status docker --no-pager
+Oct 16 21:19:46 OSG203 sudo[3606]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 21:19:46 OSG203 sudo[3606]: pam_unix(sudo:session): session closed for user root
+Oct 16 21:23:58 OSG203 sudo[3661]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165/elk-project ; USER=root ; COMMAND=/sbin/sysctl -w vm.max_map_count=262144
+Oct 16 21:23:58 OSG203 sudo[3661]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 21:23:58 OSG203 sudo[3661]: pam_unix(sudo:session): session closed for user root
+Oct 16 21:30:10 OSG203 gdm-password][3710]: gkr-pam: unlocked login keyring
+Oct 16 21:34:55 OSG203 sudo[3783]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165/elk-project/logs ; USER=root ; COMMAND=/bin/journalctl --no-pager -o short-iso
+Oct 16 21:34:55 OSG203 sudo[3783]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 21:34:55 OSG203 sudo[3783]: pam_unix(sudo:session): session closed for user root
+Oct 16 21:35:06 OSG203 sudo[3798]: DatlbCE210165 : TTY=pts/0 ; PWD=/home/DatlbCE210165/elk-project/logs ; USER=root ; COMMAND=/bin/journalctl -u sshd --no-pager -o short-iso
+Oct 16 21:35:06 OSG203 sudo[3798]: pam_unix(sudo:session): session opened for user root(uid=0) by DatlbCE210165(uid=1000)
+Oct 16 21:35:06 OSG203 sudo[3798]: pam_unix(sudo:session): session closed for user root
