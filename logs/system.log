@@ -1,0 +1,100 @@
+Oct 16 20:34:09 OSG203 systemd[2513]: Started VTE child process 3258 launched by gnome-terminal-server process 3240.
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /583_cebdaabc from uid 1000 finished with success after 1382ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /584_bcedddcc from uid 1000 finished with success after 8ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /585_bdaceace from uid 1000 finished with success after 5ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /586_dbcbbece from uid 1000 finished with success after 6ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /587_daacadbe from uid 1000 finished with success after 1ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /588_dbbcaeea from uid 1000 finished with success after 7ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /589_cdceccea from uid 1000 finished with success after 5ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /590_decceaaa from uid 1000 finished with success after 5ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /591_cbabaebc from uid 1000 finished with success after 5ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /592_dcdcdcde from uid 1000 finished with success after 6ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /593_dedbdbda from uid 1000 finished with success after 4ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /594_eedcaedb from uid 1000 finished with success after 8ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /595_cdacdadc from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 gnome-software[2789]: failed to get featured apps: no apps to show
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /596_ddcbcdbe from uid 1000 finished with success after 4ms
+Oct 16 20:34:10 OSG203 gnome-software[2789]: Only 5 apps for curated list, hiding
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /597_aaaddbba from uid 1000 finished with success after 4ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /598_cdbdeabc from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /599_bbcacadc from uid 1000 finished with success after 4ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /600_babebeac from uid 1000 finished with success after 2ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /601_decadecd from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /602_cdabaadc from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /603_bdcbeabd from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /604_bbceebda from uid 1000 finished with success after 2ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /605_cbabccbd from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /606_dbdcedec from uid 1000 finished with success after 3ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /607_ebdbaecd from uid 1000 finished with success after 4ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /608_bedebbea from uid 1000 finished with success after 2ms
+Oct 16 20:34:10 OSG203 PackageKit[2150]: resolve transaction /609_bbbeccbe from uid 1000 finished with success after 2ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: resolve transaction /610_caedbada from uid 1000 finished with success after 2ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: resolve transaction /611_eedcbace from uid 1000 finished with success after 2ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: resolve transaction /612_bbdaabab from uid 1000 finished with success after 4ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: resolve transaction /613_dacdbcce from uid 1000 finished with success after 2ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: get-updates transaction /614_bdddbbbe from uid 1000 finished with success after 549ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: get-updates transaction /615_ceadbeab from uid 1000 finished with success after 33ms
+Oct 16 20:34:11 OSG203 PackageKit[2150]: resolve transaction /616_bacdceea from uid 1000 finished with success after 17ms
+Oct 16 20:34:14 OSG203 PackageKit[2150]: get-updates transaction /617_eadcdceb from uid 1000 finished with success after 37ms
+Oct 16 20:34:14 OSG203 PackageKit[2150]: get-updates transaction /618_baccdeeb from uid 1000 finished with success after 33ms
+Oct 16 20:34:16 OSG203 systemd[1]: Stopping User Manager for UID 42...
+Oct 16 20:34:16 OSG203 systemd[1069]: Activating special unit Exit the Session...
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped target Main User Target.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopping Virtual filesystem service...
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopping PipeWire PulseAudio...
+Oct 16 20:34:16 OSG203 systemd[1]: run-user-42-gvfs.mount: Deactivated successfully.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped PipeWire PulseAudio.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped Virtual filesystem service.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopping Multimedia Service Session Manager...
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped Multimedia Service Session Manager.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopping PipeWire Multimedia Service...
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped PipeWire Multimedia Service.
+Oct 16 20:34:16 OSG203 systemd[1069]: Removed slice User Core Session Slice.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped target Basic System.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped target Paths.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped target Sockets.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped target Timers.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped Daily Cleanup of User's Temporary Directories.
+Oct 16 20:34:16 OSG203 systemd[1069]: Closed PipeWire PulseAudio.
+Oct 16 20:34:16 OSG203 systemd[1069]: Closed PipeWire Multimedia System Sockets.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopping D-Bus User Message Bus...
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped Create User's Volatile Files and Directories.
+Oct 16 20:34:16 OSG203 dbus-broker[1228]: Dispatched 339 messages @ 4(±25)μs / message.
+Oct 16 20:34:16 OSG203 systemd[1069]: Stopped D-Bus User Message Bus.
+Oct 16 20:34:16 OSG203 systemd[1069]: Closed D-Bus User Message Bus Socket.
+Oct 16 20:34:16 OSG203 systemd[1069]: Removed slice User Application Slice.
+Oct 16 20:34:16 OSG203 systemd[1069]: Reached target Shutdown.
+Oct 16 20:34:16 OSG203 systemd[1069]: Finished Exit the Session.
+Oct 16 20:34:16 OSG203 systemd[1069]: Reached target Exit the Session.
+Oct 16 20:34:16 OSG203 systemd[1]: user@42.service: Deactivated successfully.
+Oct 16 20:34:16 OSG203 systemd[1]: Stopped User Manager for UID 42.
+Oct 16 20:34:16 OSG203 systemd[1]: Stopping User Runtime Directory /run/user/42...
+Oct 16 20:34:16 OSG203 systemd[1]: run-user-42.mount: Deactivated successfully.
+Oct 16 20:34:16 OSG203 systemd[1]: user-runtime-dir@42.service: Deactivated successfully.
+Oct 16 20:34:16 OSG203 systemd[1]: Stopped User Runtime Directory /run/user/42.
+Oct 16 20:34:16 OSG203 systemd[1]: Removed slice User Slice of UID 42.
+Oct 16 20:34:16 OSG203 systemd[1]: user-42.slice: Consumed 4.003s CPU time.
+Oct 16 20:34:30 OSG203 geoclue[2063]: Service not used for 60 seconds. Shutting down..
+Oct 16 20:34:30 OSG203 systemd[1]: geoclue.service: Deactivated successfully.
+Oct 16 20:34:35 OSG203 systemd[1]: systemd-localed.service: Deactivated successfully.
+Oct 16 20:34:35 OSG203 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Oct 16 20:34:43 OSG203 realmd[2398]: quitting realmd service after timeout
+Oct 16 20:34:43 OSG203 realmd[2398]: stopping service
+Oct 16 20:34:43 OSG203 systemd[1]: realmd.service: Deactivated successfully.
+Oct 16 20:34:48 OSG203 chronyd[803]: Selected source 115.165.161.155 (2.centos.pool.ntp.org)
+Oct 16 20:34:48 OSG203 chronyd[803]: System clock wrong by 1.083156 seconds
+Oct 16 20:34:49 OSG203 chronyd[803]: System clock was stepped by 1.083156 seconds
+Oct 16 20:34:49 OSG203 chronyd[803]: System clock TAI offset set to 37 seconds
+Oct 16 20:35:05 OSG203 systemd[2513]: Starting Virtual filesystem metadata service...
+Oct 16 20:35:05 OSG203 systemd[2513]: Started Virtual filesystem metadata service.
+Oct 16 20:35:09 OSG203 PackageKit[2150]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Oct 16 20:35:09 OSG203 PackageKit[2150]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Oct 16 20:35:22 OSG203 PackageKit[2150]: refresh-cache transaction /619_dadddccb from uid 1000 finished with success after 13023ms
+Oct 16 20:35:23 OSG203 PackageKit[2150]: get-updates transaction /620_dbedbcab from uid 1000 finished with success after 475ms
+Oct 16 20:35:26 OSG203 PackageKit[2150]: get-updates transaction /621_bccdacde from uid 1000 finished with success after 50ms
+Oct 16 20:35:26 OSG203 PackageKit[2150]: get-updates transaction /622_cadbbdbd from uid 1000 finished with success after 40ms
+Oct 16 20:36:21 OSG203 systemd[2513]: Starting Mark boot as successful...
+Oct 16 20:36:21 OSG203 systemd[2513]: Finished Mark boot as successful.
+Oct 16 20:39:21 OSG203 systemd[2513]: Created slice User Background Tasks Slice.
+Oct 16 20:39:21 OSG203 systemd[2513]: Starting Cleanup of User's Temporary Files and Directories...
+Oct 16 20:39:21 OSG203 systemd[2513]: Finished Cleanup of User's Temporary Files and Directories.
