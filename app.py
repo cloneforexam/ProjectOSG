@@ -94,7 +94,7 @@ def fetch_results(limit=10000):
 
 # Only load and display data when user triggers analysis or refresh
 if st.session_state.get('auto_load', False) or 'summary_data' in st.session_state:
-    data = fetch_results(limit=100000)
+    data = fetch_results(limit=5000)
     
     if data and len(data) > 0:
         df = pd.DataFrame(data)
