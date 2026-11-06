@@ -24,7 +24,7 @@ from backend import (
  
 log = logging.getLogger("datahandle")
  
-ES_URL = os.getenv("ES_URL", "https://localhost:9200")
+ES_URL = os.getenv("ES_URL", "http://localhost:9200")
 ES_USER = os.getenv("ES_USER")
 ES_PASSWORD = os.getenv("ES_PASSWORD")
 INDEX_LOGS = os.getenv("ES_INDEX_LOGS", "linux-logs")
@@ -119,18 +119,16 @@ def get_client(url=ES_URL):
         "request_timeout": 120,
         "max_retries": 3,
         "retry_on_timeout": True,
-        "verify_certs": False,
-        "ssl_show_warn": False,
     }
     if ES_USER and ES_PASSWORD:
         kwargs["basic_auth"] = (ES_USER, ES_PASSWORD)
  
     es = Elasticsearch(url, **kwargs)
     try:
-        reachable = es.ping()
-    except Exception:
-        reachable = False
-    if not reachable:
+        # Ping thử bằng info() để tránh lỗi HEAD status 400
+        es.info()
+    except Exception as e:
+        log.warning(f"Lỗi kiểm tra info: {e}")
         raise ESUnavailableError(f"Không kết nối được Elasticsearch tại {url}.")
     return es
  
