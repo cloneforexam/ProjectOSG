@@ -36,7 +36,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 # Gom tên file vào một chỗ để dễ sửa (file gốc ghi cứng tên trong từng hàm).
 DATASET_PATH = "dataset"                         # file CSV log thật (cần có cột LogEvent và Activity)
 PROCESSED_CSV_PATH = "processed_dataset.csv"     # file đầu ra của phần NLP
-MODEL_PATH = "model/threat_detection_model.pkl"        # file mô hình đầu ra của phần train
+MODEL_PATH = "threat_detection_model.pkl"        # file mô hình đầu ra của phần train
 PLOT_PATH = "isolation_forest_plot.png"          # file ảnh biểu đồ đầu ra của phần train
  
  
